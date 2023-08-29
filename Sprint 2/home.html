@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Snesh's bakery </title>
+    <style>
+
+    body{
+            background-image: url('images/6.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-blend-mode: lighten;
+        }
+        
+    /*navigation bar*/
+    nav{
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        height:110px;
+        padding:10px 50px;
+        box-sizing: border-box;
+        background-image: linear-gradient(rgb(167, 115, 48), black); /*nav color*/
+    }
+
+    nav ul{
+        float:right; /*where the nav tabs will display*/
+        margin:0;
+        padding:0;
+        display:flex;
+    }
+
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+    }
+    
+    nav ul li a{
+        line-height:100px; /*height of the ul links*/
+        color:#fff; /*text color*/
+        padding:12px 30px; /*first number is height of the item*/
+        text-transform: uppercase;
+        font-size:20px; /*font size*/
+        font-weight:bold;
+    }
+
+    /*when you hover above a link*/
+    nav ul li a:hover{
+        background:rgba(0,0,0,0.7); /*transparency*/
+        border-radius: 6px; /*corner of the border*/
+        border-radius: 30px;
+    }
+
+    /*active link*/
+    nav ul li a.active{
+        background:#e2472f ;
+        color:#fff;
+        border-radius: 6px;
+    }
+
+    .image{
+        width: 200px;
+        height: 100px;
+    }
+
+    
+
+</style>
+</head>
+
+<body >
+        <nav>
+            <img src="images/logo.jfif" alt="Bakery Logo" class="image">
+            <ul>
+                <li><a class ="active" href ="#"> Home</a></li>
+                <li><a href ="about_us.html"> About Us</a></li>
+                <li><a href ="our_work.html"> Our Work</a></li>
+                <li><a href ="contacts.html"> Contact Us</a></li>    
+            </ul>
+        </nav>
+
+    <div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+     </div>
+
+    <h1 style ="text-align:center; color: rgb(251, 250, 250);"> WELCOME TO SNESH'S BAKERY </h1>
+    <p style ="font-size:25px ; color: rgb(255, 255, 255);">
+        <br>
+        Come discover our quality home made products,<br>
+        Family owned, locally and community focus.<br>
+        Sweeten your day with our treats.<br>
+        From our oven to your table.
+    </p>
+
+
+
+
+
+</body>
+</html>

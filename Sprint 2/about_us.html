@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Snesh's bakery </title>
+
+    <style>
+        body{
+            background-image: url('images/2.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-blend-mode: darken;
+        }
+        
+    /*navigation bar*/
+    nav{
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        height:110px;
+        padding:10px 50px;
+        box-sizing: border-box;
+        background-image: linear-gradient(rgb(167, 115, 48), black); /*nav color*/
+    }
+
+    nav ul{
+        float:right; /*where the nav tabs will display*/
+        margin:0;
+        padding:0;
+        display:flex;
+    }
+
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+    }
+    
+    nav ul li a{
+        line-height:100px; /*height of the ul links*/
+        color:#fff; /*text color*/
+        padding:12px 30px; /*first number is height of the item*/
+        text-transform: uppercase;
+        font-size:20px; /*font size*/
+        font-weight:bold;
+    }
+
+    /*when you hover above a link*/
+    nav ul li a:hover{
+        background:rgba(0,0,0,0.7); /*transparency*/
+        border-radius: 6px; /*corner of the border*/
+        border-radius: 30px;
+    }
+
+    /*active link*/
+    nav ul li a.active{
+        background:#e2472f ;
+        color:#fff;
+        border-radius: 6px;
+    }
+
+    .image{
+        width: 200px;
+        height: 100px;
+    }
+
+</style>
+
+</head>
+
+<body >
+    <div class="wrap">
+        <nav>
+            <img src="images/logo.jfif" alt="Bakery Logo" class="image">
+            <ul>
+                <li><a href ="home.html"> Home</a></li>
+                <li><a class ="active" href ="#"> About Us</a></li>
+                <li><a href ="our_work.html"> Our Work</a></li>
+                <li><a href ="contacts.html"> Contact Us</a></li>    
+            </ul>
+        </nav>
+    </div>
+    
+    <div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+    </div>
+    <h1 style ="color: rgb(255, 255, 255);"> ABOUT US </h1>
+    <p style ="font-size:25px ; color: rgb(255, 255, 255);">
+        
+        Snesh's Bakery is one of Surrey's few long-standing Craft Bakeries.<br>
+        <br> 
+        We have built our reputation on combining excellent traditional heating <br>
+        with a fantastic value. 
+        <br>
+        <br>
+        We provide our customers with a complete selection of bread, forte bread, <br>
+        morning foods, cakes, and baked goods. 
+        <br>
+        <br>
+        At our East Horsley pastry shop, our bread is cooked every day before being <br>
+        sent to our twelve stores. We use extraordinarily talented specialist dough <br>
+        punchers to ensure that every loaf of bread is consistently perfect. 
+        <br>
+        <br>
+        In order to ensure that the loaf of bread you buy at the beginning of the day <br>
+        is crisp out of the stove, our pastry chefs labor at that time.
+        <br>
+        Our commitment to quality and taste has made us a favorite choice for families <br>
+        around the world.
+        
+    </p>
+
+</body>
+</html>
